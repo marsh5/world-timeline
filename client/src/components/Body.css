@@ -1,0 +1,130 @@
+.bg-dark{
+    background: #c4c4c4;
+    color: rgb(10, 10, 10);
+    
+}
+
+.bg-light{
+    background: rgb(228, 228, 228);
+    color: rgb(10, 10, 10);
+    
+}
+
+h2{
+    padding-bottom: 25px;
+}
+
+.container {
+    padding: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.data{
+    width: 85%;
+    max-width: 1040px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th{
+    font-size: 1.13rem;
+    font-weight: 600;
+    padding: 10px 0;
+    border-bottom: rgba(110, 110, 110, 0.8) solid 0.4px;
+}
+
+.head:hover{
+    opacity: 1;
+    background-color: none;
+}
+
+td {
+    border-bottom: rgba(110, 110, 110, 0.4) solid 0.4px;
+    padding: 1rem 0;
+}
+
+.dark tr:nth-child(even){
+    background: #b3b3b3;
+}
+
+.light tr:nth-child(even){
+    background: #dddddd;
+}
+
+.flag-size{
+    width: 100px;
+    height: 100px;
+}
+
+.flag-icon-background{
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.population-world{
+    margin-top: 20px;
+    text-align: right;
+    font-size: .9rem;
+    margin-bottom: -15px;
+}
+
+.footnote{
+    margin-top: 20px;
+    text-align: right;
+    font-size: .9rem;
+    margin-bottom: -15px;
+}
+
+.footnote-empty{
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 450px){
+
+    th{
+        font-size: .9rem;
+        font-weight: 600;
+        padding: 10px 0;
+        margin-right: 100px;
+        border-bottom: rgba(110, 110, 110, 0.8) solid 0.4px;
+    }
+
+    td {
+        font-size: .8rem;
+    }
+
+    .data{
+        width: 100%;
+        max-width: 1040px;
+    }
+
+    .population-world{
+        margin-top: 20px;
+        text-align: right;
+        font-size: .9rem;
+        margin-bottom: 10px;
+    }
+    
+    .footnote{
+        margin-top: 20px;
+        text-align: right;
+        font-size: .9rem;
+        margin-bottom: 10px;
+    }
+    
+    .footnote-empty{
+        margin-top: 15px;
+    }
+
+}
